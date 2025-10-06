@@ -1,8 +1,9 @@
 > [!WARNING]
 > ShapeEmbed[^1] is now superseded by ShapeEmbedLite[^2], a newer version available in this [repository](https://github.com/uhlmanngroup/ShapeEmbedLite). 
 
-# ShapeEmbed
+<br />
 
+# ShapeEmbed
 The shape of objects is an important source of visual information in a wide range of applications. One of the core challenges of shape quantification is to ensure that the extracted measurements remain invariant to transformations that preserve an object's intrinsic geometry, such as changing its size, orientation, and position in the image. In this work, we introduce ShapeEmbed[^1], a self-supervised representation learning framework designed to encode the contour of objects in 2D images, represented as a Euclidean distance matrix, into a shape descriptor that is invariant to translation, scaling, rotation, reflection, and point indexing. Our approach overcomes the limitations of traditional shape descriptors while improving upon existing state-of-the-art autoencoder-based approaches. We demonstrate that the descriptors learned by our framework outperform their competitors in shape classification tasks on natural and biological images. We envision our approach to be of particular relevance to biological imaging applications.
 
 <p align="center">
@@ -12,8 +13,9 @@ The shape of objects is an important source of visual information in a wide rang
 </picture>
 </p>
 
-## Getting started
+<br />
 
+## Getting started
 _tested with python 3.12_
 
 Create a virtual environment and install the dependencies as follows:
@@ -25,6 +27,13 @@ python3 -m pip install --requirement requirements.txt
 ```
 
 `source .venv/bin/activate` enters the python virtual environment while a simple `deactivate` from within the virtual environment exits it.
+
+<br />
+
+## Data preparation
+To run ShapeEmbed, you need Euclidean distance matrices (EDMs) representing each object of your dataset. Follow the method presented over [here](https://github.com/uhlmanngroup/PrepareShapeEmbedDataset) to turn your segmentation binary masks into EDMs.
+
+<br />
 
 ## Run the model
 
@@ -123,6 +132,7 @@ python3 shapeembed.py --train-test-dataset <run_name> <distance_matrix_train_dat
 >                         desired number of report summary lines
 > ```
 
+<br />
 
 [^1]: Foix-Romero, A., Russell, C., Krull, A. and Uhlmann, V., 2025. ShapeEmbed: a self-supervised learning framework for 2D contour quantification. NeurIPS 2025. [Pre-print DOI](https://doi.org/10.48550/arXiv.2507.01009).
 
