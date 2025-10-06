@@ -1,0 +1,13 @@
+# torch
+torch
+torchvision
+torchaudio
+# other
+tensorboard
+pandas
+seaborn
+scikit-learn
+umap-learn
+matplotlib
+tqdm
+torchinfo

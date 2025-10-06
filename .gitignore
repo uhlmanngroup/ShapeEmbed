@@ -1,0 +1,19 @@
+# Folders with data
+synthetic_shapes_dm/*
+synthetic_shapes_images/*
+test_dm/*
+fail_recon/*
+data/*
+dcgm/*
+icml2025_rebuttal_classification_results/*
+old_results/*
+results/*
+results_classical/*
+runs/*
+runs_backups/*
+mae_vit_scripts/results/*
+mae_vit_scripts/rptr_log/*
+mae_vit_scripts/dcgm/*
+mae_vit_scripts/mae_pretrain_vit_base.pth
+mae_vit_scripts/mae_pretrain_vit_huge.pth
+mae_vit_scripts/mae_pretrain_vit_large.pth
