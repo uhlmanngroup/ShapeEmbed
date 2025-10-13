@@ -34,7 +34,7 @@ python3 -m pip install --requirement requirements.txt
 <br />
 
 ## Data preparation
-To run ShapeEmbed, you first need to extract the 2D contour of the objects you are interested in analyzing, and then to convert these contours into Euclidean distance matrices (EDMs). Follow the method provided [over here](https://github.com/uhlmanngroup/PrepareShapeEmbedDataset) to turn your binary segmentation masks into EDMs.
+To run ShapeEmbed, you first need to extract the 2D contour of the objects you are interested in analyzing, and then to convert these contours into Euclidean distance matrices (EDMs). Follow the method provided [over here](https://github.com/uhlmanngroup/ConvertBinaryMasksToDMs) to turn your binary segmentation masks into EDMs.
 
 <br />
 
