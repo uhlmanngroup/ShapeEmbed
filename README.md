@@ -7,7 +7,7 @@
 ShapeEmbed is a self-supervised representation learning framework designed to encode the contour of objects in 2D images, represented as a Euclidean distance matrix, into a shape descriptor that is invariant to translation, scaling, rotation, reflection, and point indexing.
 
 If you use ShapeEmbed in your work, please cite it as follows: 
-> Foix-Romero, A., Russell, C., Krull, A., and Uhlmann, V., 2025. ShapeEmbed: a self-supervised learning framework for 2D contour quantification. NeurIPS. [Preprint](https://doi.org/10.48550/arXiv.2507.01009).
+> Foix-Romero, A., Russell, C., Krull, A., and Uhlmann, V., 2025. ShapeEmbed: a self-supervised learning framework for 2D contour quantification. NeurIPS. [Paper](https://openreview.net/forum?id=iT2ZisemFs).
 
 <p align="center">
 <picture>
